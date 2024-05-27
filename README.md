@@ -8,8 +8,8 @@ Good luck and have fun! 😃
 
 ## Table of content
 
-* [Describe the high-level context of your class](describe-the-high-level-context-of-your-class)
-* [Describe your class based on its characteristics](describe-your-class-based-on-its-characteristics)
+* [Describe the high-level context of your class](#describe-the-high-level-context-of-your-class)
+* [Describe your class based on its characteristics](#describe-your-class-based-on-its-characteristics)
 
 ## Describe the high-level context of your class
 
