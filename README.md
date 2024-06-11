@@ -10,6 +10,13 @@ Good luck and have fun! 😃
 
 * [Describe the high-level context of your class](#describe-the-high-level-context-of-your-class)
 * [Describe your class based on its characteristics](#describe-your-class-based-on-its-characteristics)
+* [Describe the tier your class belongs to](#describe-the-tier-your-class-belongs-to)
+* [Describe the layer your class belongs to](#describe-the-layer-your-class-belongs-to)
+* [Describe the focus of your class](#describe-the-focus-of-your-class)
+* [Describe your class based on its characteristics](#describe-your-class-based-on-its-characteristics)
+* [Describe your class based on its neighborhood](#describe-your-class-based-on-its-neighborhood)
+* [Describe your class based on numbers](#describe-your-class-based-on-numbers)
+* [Describe your class using the associated design pattern](#describe-your-class-using-the-associated-design-pattern)
 
 ## Describe the high-level context of your class
 
@@ -19,13 +26,16 @@ This is a simple, high-level classification of your class into two categories:
 
 * **Technical object**: Your class represents a technical object such as an email or a service for sending an email.
 
+[Back to table of content](#table-of-content).
+
 ## Describe the character of your class
 
 | Characteristic | Description |
 | :--- | :--- |
-| Utility class | Your class is entirely static. |
+| Utility/Helper class | Your class may contain only static methods that represent helper functions. |
 | Test class | Your class contains test methods or is part of a test infrastructure. |
-| 
+| Exception class | Your class is for error handling. |
+| Factory class | Your class creates an object of another class in a special way. |
 
 ## Describe the tier your class belongs to
 
@@ -81,9 +91,11 @@ Your class works with other classes to implement functionality. This can be done
 
 Here are a few suggestions:
 
-* Number of attributes: A few private attributes (3-5) are usually good. Only offer public attributes in rare cases.
-* Number of public methods: Fewer public methods make your class easier to understand for consumers.
-* Lines of Code: It depends on the programming language but less is faster to understand.
+| Characteristic | Description |
+| :--- | :--- |
+| Number of attributes | A few private attributes (3-5) are usually good. Only offer public attributes in rare cases. |
+| Number of public methods | Fewer public methods makes your class easier to understand for consumers. |
+| Lines of Code | It depends on the programming language but less is most of the time faster to understand. |
 
 ## Describe your class using the associated design pattern
 
