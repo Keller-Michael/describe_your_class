@@ -1,10 +1,12 @@
-# 🖥️ Tell about your new awesome class
+# 📣 Tell the world about your new awesome class
 
 *Yes, each of us has experienced this: It's a cool party, everyone is having fun and you want to tell your friends about this new, super awesome class you wrote last weekend during a long night shift. But then you simply don't have the words to describe so much technical beauty. Ouch! But wait, this doesn't have to happen to you again. Here are a few ideas for describing your class to others.*
 
-Ok, the section before was the fun side of this repository. Here comes the hard truth: We developers rarely talk about our super-cool classes at parties, but we talk more often at work with colleagues, e.g. during a code review. This is exactly what the approaches from this repository are intended to help with. 
+Ok, the section before was the fun side of this repository. Here comes the hard truth: We developers rarely talk about our super-cool classes at parties, but we talk more often at work with colleagues, e.g. during a code review. This is exactly what the approaches from this repository are intended to help with. Along with interfaces, classes are the central building blocks of an application in object orientation. That's exactly why we can't talk about them enough.
 
 Good luck and have fun! 😃
+
+***Note:** I have compiled this collection based on my experience with the ABAP Objects programming language. Since every programming language has its own special features, I try to make suggestions that are as cross-language as possible. Everyone is welcome to help.*
 
 ## Table of content
 
@@ -16,6 +18,7 @@ Good luck and have fun! 😃
 * [Describe your class based on its characteristics](#describe-your-class-based-on-its-characteristics)
 * [Describe your class based on its neighborhood](#describe-your-class-based-on-its-neighborhood)
 * [Describe your class based on numbers](#describe-your-class-based-on-numbers)
+* [Describe the requirements for using your class](#describe-the-requirements-for-using-your-class)
 * [Describe your class using the associated design pattern](#describe-your-class-using-the-associated-design-pattern)
 
 ## Describe the high-level context of your class
@@ -26,7 +29,7 @@ This is a simple, high-level classification of your class into two categories:
 
 * **Technical object**: Your class represents a technical object such as an email or a service for sending an email.
 
-[Back to table of content](#table-of-content).
+[Back to table of content](#table-of-content)
 
 ## Describe the character of your class
 
@@ -37,6 +40,8 @@ This is a simple, high-level classification of your class into two categories:
 | Exception class | Your class is for error handling. |
 | Factory class | Your class creates an object of another class in a special way. |
 
+[Back to table of content](#table-of-content).
+
 ## Describe the tier your class belongs to
 
 Your class belongs to one of these tiers:
@@ -46,6 +51,8 @@ Your class belongs to one of these tiers:
 * Data tier
 
 Check this [Wikipedia article](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture) for more information.
+
+[Back to table of content](#table-of-content)
 
 ## Describe the layer your class belongs to
 
@@ -58,11 +65,15 @@ Your class belongs to one of these layers:
 
 Check this [Wikipedia article](https://en.wikipedia.org/wiki/Multitier_architecture#Layers) for more informationen.
 
+[Back to table of content](#table-of-content)
+
 ## Describe the focus of your class
 
 * Focus on data
 * Focus on algorithms
 * Good mix of both
+
+[Back to table of content](#table-of-content)
 
 ## Describe your class based on its characteristics
 
@@ -82,10 +93,15 @@ Check this [Wikipedia article](https://en.wikipedia.org/wiki/Multitier_architect
 | implements interface(s) | Your class makes use of one or more interfaces. | 
 | has factory methods | Describe why the standard constructor was not enough. |
 | has public attributes | Why are the attributes public and not private with Getter/Setter-methods? |
+| is a Singleton | There's only one object of your class possible. |
+
+[Back to table of content](#table-of-content)
 
 ## Describe your class based on its neighborhood
 
 Your class works with other classes to implement functionality. This can be done via [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) or [composition](https://en.wikipedia.org/wiki/Object_composition). Describe the connections so that your class can be better classified. For example, design patterns are often composed of different classes with specific individual tasks that together provide a unity. 
+
+[Back to table of content](#table-of-content)
 
 ## Describe your class based on numbers
 
@@ -97,6 +113,14 @@ Here are a few suggestions:
 | Number of public methods | Fewer public methods makes your class easier to understand for consumers. |
 | Lines of Code | It depends on the programming language but less is most of the time faster to understand. |
 
+[Back to table of content](#table-of-content)
+
+## Describe the requirements for using your class
+
+Other Objects, method sequence and more
+
+[Back to table of content](#table-of-content)
+
 ## Describe your class using the associated design pattern
 
 | Design Pattern | Description |
@@ -104,3 +128,5 @@ Here are a few suggestions:
 | [Value object](https://en.wikipedia.org/wiki/Value_object) | Your class repesents a simple value like an amount of money. |
 | [Data transfer object](https://en.wikipedia.org/wiki/Data_transfer_object) | Your class helps to exchange data between processes. |
 | Parameter object | Bundle related parameters into one object. |
+
+[Back to table of content](#table-of-content)
