@@ -119,7 +119,7 @@ Here are a few suggestions:
 
 ## Describe the requirements for using your class
 
-Other Objects, method sequence and more
+There may be various requirements for your class to do its job. The constructor may need to be supplied with certain objects, or public methods may need to be called in a certain order.
 
 [Back](#table-of-content)
 
@@ -136,5 +136,6 @@ Usually nothing goes wrong. Well, until that one moment for which you have fortu
 | [Value object](https://en.wikipedia.org/wiki/Value_object) | Your class repesents a simple value like an amount of money. |
 | [Data transfer object](https://en.wikipedia.org/wiki/Data_transfer_object) | Your class helps to exchange data between processes. |
 | Parameter object | Bundle related parameters into one object. |
+| [Facade](https://en.wikipedia.org/wiki/Facade_pattern) | Your class hides complex logic and makes it easier for the consumer. |
 
 [Back](#table-of-content)
